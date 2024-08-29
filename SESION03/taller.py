@@ -5,53 +5,90 @@ Utilizar un menu para las diferentes opciones, tales como aperturaCta, consignar
 '''
 class CuentaBancaria:
 def __init__(self, numeroCta, nombreCliente, saldoCta, fechaApertura, ultimoRetiro, ultimaConsignacion):
-  self.__numeroCta = numeroCta
-  self.__nombreCliente = nombreCliente
-  self.__saldoCta = saldoCta
-  self.__fechaApertura =fechaApertura
-  self.__ultuimoRetiro = ultimoRetiro
-  self.__ultimaCosignacion = ultimaConsignacion
+    self.__numeroCta = numeroCta
+    self.__nombreCliente = nombreCliente
+    self.__saldoCta = saldoCta
+    self.__fechaApertura =fechaApertura
+    self.__ultuimoRetiro = ultimoRetiro
+    self.__ultimaCosignacion = ultimaConsignacion
 
 def set(self, numeroCta, nombreCliente, saldoCta, fechaApertura, ultimoRetiro, ultimaConsignacion)
-  self.__numeroCta = numeroCta
-  self.__nombreCliente = nombreCliente
-  self.__saldoCta = saldoCta
-  self.__fechaApertura = fechaApertura
-  self.__ultuimoRetiro = ultimoRetiro
-  self.__ultimaCosignacion = ultimaConsignacion
+    self.__numeroCta = numeroCta
+    self.__nombreCliente = nombreCliente
+    self.__saldoCta = saldoCta
+    self.__fechaApertura = fechaApertura
+    self.__ultuimoRetiro = ultimoRetiro
+    self.__ultimaCosignacion = ultimaConsignacion
 
 
 def set_numeroCta(self, x):
-  self.__numeroCta = x
+    self.__numeroCta = x
 
 def set_nombreCliente(self, x):
-  self.__nombreCliente = x
+    self.__nombreCliente = x
   
 def set_saldoCta(self, x):
-  self.__saldoCta = x
+    self.__saldoCta = x
 
 def set_fechaApertura(self, x):
-  self.__fechaApertura = x
+    self.__fechaApertura = x
 
 def set_ultimoRetiro(self, x):
-  self.__ultimoRetiro = x
-
+    self.__ultimoRetiro = x
+  
 def set_ultimaConsignacion(self, x):
-  self.__ultimaConsignacion = x
+    self.__ultimaConsignacion = x
 
 
 def MostrarMenu():
-  print("Menu Principal")
-  print("1. Apertura de Cuenta")
-  print("2. Consignar")
-  print("3. Retirar")
-  print("4. Transferencia")
-  print("5. Activaciones de Token")
-  print("6. Certificados")
-  print("7. Bloqueo de Tarjetas")
-  print("8. Cuenta Bolsillo")
-  print("9. Consultas de Saldos")
-  print("10. CDT")
+    print("Menu Principal")
+    print("1. Apertura de Cuenta")
+    print("2. Consignaciones")
+    print("3. Retiros")
+    print("4. Transferencias")
+    print("5. Activaciones de Token")
+    print("6. Certificados")
+    print("7. Bloqueo de Tarjetas")
+    print("8. Cuenta Bolsillo")
+    print("9. Consultas de Saldos")
+    print("10. CDT")
+
+
+
+def apertura_de_Cuenta():
+    print("Haz seleccionado Apertura de cuenta")
+
+def consignar():
+    print("Haz seleccionado Consignaciones")
+
+def retiros():
+    print("Haz seleccionado Retiros")
+
+def transferencias():
+    print("Haz seleccionado Transferencias")
+
+def activaciones_token():
+    print("Haz seleccionado Activaciones de Token")
+
+def certificados():
+    print("Haz seleccionado Certificados")
+
+def bloqueo_tarjetas():
+    print("Haz seleccionado Bloqueos de Tarjetas")
+
+def cuenta_bolsillo():
+    print("Haz seleccionado Cuenta Bolsillo")
+
+def consultas_saldos():
+    print("Haz seleccionado Consultas de Saldos")
+
+def cdt():
+    print("Haz seleccionado CDT")
+
+
+  
+
+
 
 
 
