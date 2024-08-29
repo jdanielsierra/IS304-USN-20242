@@ -38,4 +38,24 @@ def set_ultimoRetiro(self, x):
 
 def set_ultimaConsignacion(self, x):
   self.__ultimaConsignacion = x
+
+
+def MostrarMenu():
+  print("Menu Principal")
+  print("1. Apertura de Cuenta")
+  print("2. Consignar")
+  print("3. Retirar")
+  print("4. Transferencia")
+  print("5. Activaciones de Token")
+  print("6. Certificados")
+  print("7. Bloqueo de Tarjetas")
+  print("8. Cuenta Bolsillo")
+  print("9. Consultas de Saldos")
+  print("10. CDT")
+
+
+
+
+
+
   
