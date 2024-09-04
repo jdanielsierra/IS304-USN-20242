@@ -4,45 +4,45 @@ Aplicar encapsulamiento y definir los métodos apropiados para controlar y gesti
 Utilizar un menu para las diferentes opciones, tales como aperturaCta, consignar, retirar y transferencia entre otros.
 '''
 class CuentaBancaria:
-def __init__(self, numeroCta, nombreCliente, saldoCta, fechaApertura, ultimoRetiro, ultimaConsignacion):
-    self.__numeroCta = numeroCta
-    self.__nombreCliente = nombreCliente
-    self.__saldoCta = saldoCta
-    self.__fechaApertura =fechaApertura
-    self.__ultuimoRetiro = ultimoRetiro
-    self.__ultimaCosignacion = ultimaConsignacion
+    def __init__(self, numeroCta, nombreCliente, saldoCta, fechaApertura, ultimoRetiro, ultimaConsignacion):
+        self.__numeroCta = numeroCta
+        self.__nombreCliente = nombreCliente
+        self.__saldoCta = saldoCta
+        self.__fechaApertura =fechaApertura
+        self.__ultuimoRetiro = ultimoRetiro
+        self.__ultimaCosignacion = ultimaConsignacion
 
-def set(self, numeroCta, nombreCliente, saldoCta, fechaApertura, ultimoRetiro, ultimaConsignacion)
-    self.__numeroCta = numeroCta
-    self.__nombreCliente = nombreCliente
-    self.__saldoCta = saldoCta
-    self.__fechaApertura = fechaApertura
-    self.__ultuimoRetiro = ultimoRetiro
-    self.__ultimaCosignacion = ultimaConsignacion
+    def set(self, numeroCta, nombreCliente, saldoCta, fechaApertura, ultimoRetiro, ultimaConsignacion)
+        self.__numeroCta = numeroCta
+        self.__nombreCliente = nombreCliente
+        self.__saldoCta = saldoCta
+        self.__fechaApertura = fechaApertura
+        self.__ultuimoRetiro = ultimoRetiro
+        self.__ultimaCosignacion = ultimaConsignacion
 
 
-def set_numeroCta(self, x):
-    self.__numeroCta = x
+    def set_numeroCta(self, x):
+        self.__numeroCta = x
 
-def set_nombreCliente(self, x):
-    self.__nombreCliente = x
+    def set_nombreCliente(self, x):
+        self.__nombreCliente = x
   
-def set_saldoCta(self, x):
-    self.__saldoCta = x
+    def set_saldoCta(self, x):
+        self.__saldoCta = x
 
-def set_fechaApertura(self, x):
-    self.__fechaApertura = x
+    def set_fechaApertura(self, x):
+        self.__fechaApertura = x
 
-def set_ultimoRetiro(self, x):
-    self.__ultimoRetiro = x
+    def set_ultimoRetiro(self, x):
+        self.__ultimoRetiro = x
   
-def set_ultimaConsignacion(self, x):
-    self.__ultimaConsignacion = x
+    def set_ultimaConsignacion(self, x):
+        self.__ultimaConsignacion = x
 
 
 def MostrarMenu():
-    print("Menu Principal")
-    print("1. Apertura de Cuenta")
+    print("\nMenu Principal")
+    print("\n1. Apertura de Cuenta")
     print("2. Consignaciones")
     print("3. Retiros")
     print("4. Transferencias")
