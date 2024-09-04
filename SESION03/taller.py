@@ -12,7 +12,7 @@ class CuentaBancaria:
         self.__ultuimoRetiro = ultimoRetiro
         self.__ultimaCosignacion = ultimaConsignacion
 
-    def set(self, numeroCta, nombreCliente, saldoCta, fechaApertura, ultimoRetiro, ultimaConsignacion)
+    def set(self, numeroCta, nombreCliente, saldoCta, fechaApertura, ultimoRetiro, ultimaConsignacion):
         self.__numeroCta = numeroCta
         self.__nombreCliente = nombreCliente
         self.__saldoCta = saldoCta
@@ -54,41 +54,80 @@ def MostrarMenu():
     print("10. CDT")
     print("0. Volver")
 
-def seleccion_mostrar():
-    MostrarMenu()
-    opción = 
+def seleccion_opcion():
+    while True:
+        MostrarMenu()
+        opcion = input("\nSeleccione una Opción: ")
+
+        if opcion == "1":
+            apertura_de_Cuenta()
+        elif opcion == "2":
+            consignar()
+        elif opcion == "3":
+            retiros()
+        elif opcion == "4":
+            transferencias()
+        elif opcion == "5":
+            activaciones_token()
+        elif opcion == "6":
+            certificados()
+        elif opcion == "7":
+            bloqueo_tarjetas()
+        elif opcion == "8":
+            cuenta_bolsillo()
+        elif opcion == "9":
+            consultas_saldos()
+        elif opcion == "10":
+            cdt()
+        elif opcion == "0":
+            print("\nSaliendo del Sistema...")
+            break
+        else:
+            print("\nOpción no válida. Por favor, selecciona una opción del menú.")
 
 
 
 def apertura_de_Cuenta():
     print("Haz seleccionado Apertura de cuenta")
+    input("Presiona Enter para volver al menú principal")
 
 def consignar():
     print("Haz seleccionado Consignaciones")
+    input("Presiona Enter para volver al menú principal")
 
 def retiros():
     print("Haz seleccionado Retiros")
+    input("Presiona Enter para volver al menú principal")
 
 def transferencias():
     print("Haz seleccionado Transferencias")
+    input("Presiona Enter para volver al menú principal")
 
 def activaciones_token():
     print("Haz seleccionado Activaciones de Token")
+    input("Presiona Enter para volver al menú principal")
 
 def certificados():
     print("Haz seleccionado Certificados")
+    input("Presiona Enter para volver al menú principal")
 
 def bloqueo_tarjetas():
     print("Haz seleccionado Bloqueos de Tarjetas")
+    input("Presiona Enter para volver al menú principal")
 
 def cuenta_bolsillo():
     print("Haz seleccionado Cuenta Bolsillo")
+    input("Presiona Enter para volver al menú principal")
 
 def consultas_saldos():
     print("Haz seleccionado Consultas de Saldos")
+    input("Presiona Enter para volver al menú principal")
 
 def cdt():
     print("Haz seleccionado CDT")
+    input("Presiona Enter para volver al menú principal")
+
+seleccion_opcion()
 
 
   
